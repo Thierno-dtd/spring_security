@@ -2,7 +2,6 @@ package com.springsecurity.springsecurity.configuration;
 
 import com.springsecurity.springsecurity.model.DBUser;
 import com.springsecurity.springsecurity.repository.DBUserRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
