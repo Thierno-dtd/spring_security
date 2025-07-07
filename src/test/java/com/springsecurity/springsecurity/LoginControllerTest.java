@@ -27,10 +27,10 @@ public class LoginControllerTest {
         mockMvc.perform(get("/login")).andDo(print()).andExpect(status().isOk());
     }
 
-    /*@Test
+    @Test
     public void userLoginTest() throws  Exception{
-        mockMvc.perform(formLogin("/login").user("user").password("user")).andExpect(authenticated());
-    }*/
+        mockMvc.perform(formLogin("/login").user("dbuser").password("user")).andExpect(authenticated());
+    }
 
     @Test
     public void userLoginFailed() throws  Exception{
